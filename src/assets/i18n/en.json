@@ -1,0 +1,48 @@
+{
+    "COMPANY_NAME": "Alan & Thomas Technologies",
+    "SLOGAN": "Creating a Specialty Chemicals Platform",
+    "COMPANY_VALUES": {
+        "1": {
+            "NAME": "BETTER EVERYDAY",
+            "DESCRIPTION": "We look for safer and better ways of working with a continuous improvement mindset."
+        },
+        "2": {
+            "NAME": "CUSTOMER CENTRIC",
+            "DESCRIPTION": "We build trust by making each customer successful by fulfilling our commitment to their satisfaction."
+        },
+        "3": {
+            "NAME": "RELIABLE",
+            "DESCRIPTION": "We do what we say to earn trust from our customers, colleagues and stakeholders."
+        }
+    },
+    "APPLICATIONS": {
+        "1": {
+            "NAME": "PAINT & COATING",
+            "SUB_TITLE": "We understand colour.",
+            "DESCRIPTION": "We work with leadingcolour pigment and dye manufacturers to assist our customers in selecting the perfect products and colours for their project."
+        },
+        "2": {
+            "NAME": "INK",
+            "SUB_TITLE": "We can provide products that fit your application.",
+            "DESCRIPTION": "We are also able to meet any special wishes from our clients quickly and reliably."
+        },
+        "3": {
+            "NAME": "ADHESIVE",
+            "SUB_TITLE": "We provide the most suitable products.",
+            "DESCRIPTION": "We supply virtually all special raw materials for your formulation across the entire spectrum of adhesives."
+        },
+        "4": {
+            "NAME": "PLASTIC",
+            "SUB_TITLE": "We provide the most suitable products.",
+            "DESCRIPTION": "We have professional knowledge of plastic application"
+        },
+        "5": {
+            "NAME": "LUBRICANT ADDITIVES",
+            "SUB_TITLE": "Proper additive selection is crucial to the performance of your formulation.",
+            "DESCRIPTION": "Our product range covers numerous specialty chemicals that enable targeted product characteristics to be generated and adjusted."
+        }
+    },
+    "CONTACT": {
+        "ADDRESS": "1F. No.116, Buzi Lane, Beitun District, Taichung City, Taiwan" 
+    }
+}

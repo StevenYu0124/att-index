@@ -1,0 +1,48 @@
+{
+    "COMPANY_NAME": "宏威應用科技股份有限公司",
+    "SLOGAN": "Creating a Specialty Chemicals Platform",
+    "COMPANY_VALUES": {
+        "1": {
+            "NAME": "與日俱增" ,
+            "DESCRIPTION": "我們尋求最適宜的工作模式來精益求精"
+        },
+        "2": {
+            "NAME": "以客為尊" ,
+            "DESCRIPTION": "我們言而有信，以忠誠面對客戶、員工以及社會和環境"
+        },
+        "3": {
+            "NAME": "穩若磐石" ,
+            "DESCRIPTION": "我們竭盡全力的服務，以提升客戶的信賴和滿意度"
+        }
+    },
+    "APPLICATIONS": {
+        "1": {
+            "NAME": "PAINT & COATING",
+            "SUB_TITLE": "We understand colour.",
+            "DESCRIPTION": "We work with leadingcolour pigment and dye manufacturers to assist our customers in selecting the perfect products and colours for their project."
+        },
+        "2": {
+            "NAME": "INK",
+            "SUB_TITLE": "We can provide products that fit your application.",
+            "DESCRIPTION": "We are also able to meet any special wishes from our clients quickly and reliably."
+        },
+        "3": {
+            "NAME": "ADHESIVE",
+            "SUB_TITLE": "We provide the most suitable products.",
+            "DESCRIPTION": "We supply virtually all special raw materials for your formulation across the entire spectrum of adhesives."
+        },
+        "4": {
+            "NAME": "PLASTIC",
+            "SUB_TITLE": "We provide the most suitable products.",
+            "DESCRIPTION": "We have professional knowledge of plastic application"
+        },
+        "5": {
+            "NAME": "LUBRICANT ADDITIVES",
+            "SUB_TITLE": "Proper additive selection is crucial to the performance of your formulation.",
+            "DESCRIPTION": "Our product range covers numerous specialty chemicals that enable targeted product characteristics to be generated and adjusted."
+        }
+    },
+    "CONTACT": {
+        "ADDRESS": "40661 台中市北屯區廍子巷116號1樓" 
+    }
+}

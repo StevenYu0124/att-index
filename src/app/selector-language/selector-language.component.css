@@ -1,0 +1,13 @@
+span{
+    display: inline-flex;
+    align-items: center;
+}
+
+.underline{
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+}
+
+.clickable{
+    cursor: pointer;
+}
