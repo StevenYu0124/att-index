@@ -13,6 +13,7 @@ import { ContentApplicationsComponent } from './content-applications/content-app
 import { SidebarContactComponent } from './sidebar-contact/sidebar-contact.component';
 import { HeaderComponent } from './header/header.component';
 import { ContentPartnersComponent } from './content-partners/content-partners.component';
+import { HeaderMenuComponent } from './header-menu/header-menu.component';
 
 export function httpTranslateLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http);
@@ -27,7 +28,8 @@ export function httpTranslateLoaderFactory(http: HttpClient){
     ContentApplicationsComponent,
     SidebarContactComponent,
     HeaderComponent,
-    ContentPartnersComponent
+    ContentPartnersComponent,
+    HeaderMenuComponent
   ],
   imports: [
     BrowserModule,

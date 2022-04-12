@@ -7,8 +7,8 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./selector-language.component.css']
 })
 export class SelectorLanguageComponent implements OnInit {
-  underline1 = '';
-  underline2 = 'underline';
+  lang = '';
+
   ngOnInit(): void {
   }
 
@@ -17,17 +17,11 @@ export class SelectorLanguageComponent implements OnInit {
   ){
     translate.addLangs(['en','zh-TW']);
     translate.setDefaultLang('zh-TW');
+    this.lang = 'zh-TW';
   }
 
   translateLanguageTo(lang: string){
     this.translate.use(lang);
-    if (lang === 'zh-TW'){
-      this.underline1 = '';
-      this.underline2 = 'underline';
-    }
-    else{
-      this.underline1 = 'underline';
-      this.underline2 = '';
-    }
+    this.lang = this.translate.currentLang;
   }
 }

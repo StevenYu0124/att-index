@@ -1,9 +1,11 @@
 <div class="d-flex justify-content-center" style="height:100%">
   <span 
-  class="{{underline1}} clickable"
-  (click)="translateLanguageTo('en')">English</span>
-<span class="mx-2">|</span>
-<span 
-  class="{{underline2}} clickable"
-  (click)="translateLanguageTo('zh-TW')">中文</span>
+    class="clickable"
+    [ngClass]="{underline: lang === 'en'}"
+    (click)="translateLanguageTo('en')">English</span>
+  <span class="mx-2">|</span>
+  <span 
+    class="clickable"
+    [ngClass]="{underline: lang === 'zh-TW'}"
+    (click)="translateLanguageTo('zh-TW')">中文</span>
 </div>
