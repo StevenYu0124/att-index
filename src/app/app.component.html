@@ -1,11 +1,11 @@
 <div class="container">
   <app-header></app-header>
-  <app-header-menu></app-header-menu>
-  <div class="row">
+  <app-header-menu (selectMenuEvent)="selectMenu($event)"></app-header-menu>
+  <div class="row mt-4">
     <div class="col-8">
-      <app-content-company-values></app-content-company-values>
-      <app-content-applications></app-content-applications>
-      <app-content-partners></app-content-partners>
+      <app-content-company-values *ngIf="selectedMenu === 'Company'"></app-content-company-values>
+      <app-content-applications *ngIf="selectedMenu === 'Applications'"></app-content-applications>
+      <app-content-partners *ngIf="selectedMenu === 'Partners'"></app-content-partners>
     </div>
     <app-sidebar-contact class="col-4"></app-sidebar-contact>
   </div>

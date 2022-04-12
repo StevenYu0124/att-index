@@ -1,0 +1,12 @@
+.black{
+    color: black !important;
+}
+
+.clickable{
+    cursor: pointer;
+    
+}
+
+.selected{
+    background-color: rgb(220, 220, 220);
+}

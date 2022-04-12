@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-header-menu',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header-menu.component.css']
 })
 export class HeaderMenuComponent implements OnInit {
-
+  menus = ["Home", "Company", "Applications", "Partners"];
+  selectedMenu = "Home";
+  @Output() selectMenuEvent = new EventEmitter<string>();
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  selectMenu(option: string){
+    this.selectedMenu = option;
+    this.selectMenuEvent.emit(option);
+  }
 }
