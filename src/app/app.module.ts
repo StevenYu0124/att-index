@@ -15,6 +15,10 @@ import { HeaderComponent } from './header/header.component';
 import { ContentPartnersComponent } from './content-partners/content-partners.component';
 import { HeaderMenuComponent } from './header-menu/header-menu.component';
 import { ContentPaintCoatingComponent } from './content-paint-coating/content-paint-coating.component';
+import { ContentInkComponent } from './content-ink/content-ink.component';
+import { ContentAdhesiveComponent } from './content-adhesive/content-adhesive.component';
+import { ContentPlasticComponent } from './content-plastic/content-plastic.component';
+import { ContentLubricantComponent } from './content-lubricant/content-lubricant.component';
 
 export function httpTranslateLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http);
@@ -31,7 +35,11 @@ export function httpTranslateLoaderFactory(http: HttpClient){
     HeaderComponent,
     ContentPartnersComponent,
     HeaderMenuComponent,
-    ContentPaintCoatingComponent
+    ContentPaintCoatingComponent,
+    ContentInkComponent,
+    ContentAdhesiveComponent,
+    ContentPlasticComponent,
+    ContentLubricantComponent
   ],
   imports: [
     BrowserModule,

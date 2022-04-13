@@ -7,6 +7,10 @@
       <app-content-applications *ngIf="selectedMenu === 'Home' || selectedMenu === 'Applications'"></app-content-applications>
       <app-content-partners *ngIf="selectedMenu === 'Partners'"></app-content-partners>
       <app-content-paint-coating *ngIf="selectedMenu === 'paint-coating'"></app-content-paint-coating>
+      <app-content-ink *ngIf="selectedMenu === 'ink'"></app-content-ink>
+      <app-content-adhesive *ngIf="selectedMenu === 'adhesive'"></app-content-adhesive>
+      <app-content-plastic *ngIf="selectedMenu === 'plastic'"></app-content-plastic>
+      <app-content-lubricant *ngIf="selectedMenu === 'lubricant'"></app-content-lubricant>
     </div>
     <app-sidebar-contact class="col-4"></app-sidebar-contact>
   </div>

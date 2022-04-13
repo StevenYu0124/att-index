@@ -20,10 +20,10 @@
                 <ul class="dropdown-menu" aria-labelledby="ApplicationsDropdown"
                     *ngIf="menu === 'Applications'">
                     <li><span class="dropdown-item clickable" (click) = "selectMenu('paint-coating')">Paint & Coating</span></li>
-                    <li><span class="dropdown-item clickable" href="#">Ink</span></li>
-                    <li><span class="dropdown-item clickable" href="#">Adhesive</span></li>
-                    <li><span class="dropdown-item clickable" href="#">Plastic</span></li>
-                    <li><span class="dropdown-item clickable" href="#">Lubricant additives</span></li>
+                    <li><span class="dropdown-item clickable" (click) = "selectMenu('ink')">Ink</span></li>
+                    <li><span class="dropdown-item clickable" (click) = "selectMenu('adhesive')">Adhesive</span></li>
+                    <li><span class="dropdown-item clickable" (click) = "selectMenu('plastic')">Plastic</span></li>
+                    <li><span class="dropdown-item clickable" (click) = "selectMenu('lubricant')">Lubricant</span></li>
                 </ul>
             </li>
         </ul>
