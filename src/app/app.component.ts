@@ -6,9 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  selectedMenu = "Menu";
+  selectedMenu = "Home";
   
   selectMenu(option: string){
     this.selectedMenu = option;
+    console.log(option);
   }
 }

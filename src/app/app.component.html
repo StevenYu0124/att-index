@@ -4,8 +4,9 @@
   <div class="row mt-4">
     <div class="col-8">
       <app-content-company-values *ngIf="selectedMenu === 'Company'"></app-content-company-values>
-      <app-content-applications *ngIf="selectedMenu === 'Applications'"></app-content-applications>
+      <app-content-applications *ngIf="selectedMenu === 'Home' || selectedMenu === 'Applications'"></app-content-applications>
       <app-content-partners *ngIf="selectedMenu === 'Partners'"></app-content-partners>
+      <app-content-paint-coating *ngIf="selectedMenu === 'paint-coating'"></app-content-paint-coating>
     </div>
     <app-sidebar-contact class="col-4"></app-sidebar-contact>
   </div>

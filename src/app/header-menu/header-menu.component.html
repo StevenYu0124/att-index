@@ -7,10 +7,24 @@
             <li 
                 class="nav-item pt-1 pb-2" 
                 *ngFor="let menu of menus"
-                [ngClass]="{selected: menu === selectedMenu}"
-                (click) = "selectMenu(menu)"
+                [ngClass]="
+                    {selected: menu === selectedMenu,
+                    dropdown: menu === 'Applications'}"
+                (click) = "menu !== 'Applications' && selectMenu(menu)"
                 >
-                <span class="nav-link clickable black">{{ menu }}</span>
+                <span
+                    [attr.data-bs-toggle]="menu === 'Applications' ? 'dropdown' : null"
+                    class="nav-link clickable black"
+                    [ngClass]="{'dropdown-toggle': menu === 'Applications'}"
+                    id="{{ menu }}Dropdown">{{ menu }}</span>
+                <ul class="dropdown-menu" aria-labelledby="ApplicationsDropdown"
+                    *ngIf="menu === 'Applications'">
+                    <li><span class="dropdown-item clickable" (click) = "selectMenu('paint-coating')">Paint & Coating</span></li>
+                    <li><span class="dropdown-item clickable" href="#">Ink</span></li>
+                    <li><span class="dropdown-item clickable" href="#">Adhesive</span></li>
+                    <li><span class="dropdown-item clickable" href="#">Plastic</span></li>
+                    <li><span class="dropdown-item clickable" href="#">Lubricant additives</span></li>
+                </ul>
             </li>
         </ul>
     </div>

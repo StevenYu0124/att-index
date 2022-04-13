@@ -14,6 +14,7 @@ import { SidebarContactComponent } from './sidebar-contact/sidebar-contact.compo
 import { HeaderComponent } from './header/header.component';
 import { ContentPartnersComponent } from './content-partners/content-partners.component';
 import { HeaderMenuComponent } from './header-menu/header-menu.component';
+import { ContentPaintCoatingComponent } from './content-paint-coating/content-paint-coating.component';
 
 export function httpTranslateLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http);
@@ -29,7 +30,8 @@ export function httpTranslateLoaderFactory(http: HttpClient){
     SidebarContactComponent,
     HeaderComponent,
     ContentPartnersComponent,
-    HeaderMenuComponent
+    HeaderMenuComponent,
+    ContentPaintCoatingComponent
   ],
   imports: [
     BrowserModule,
