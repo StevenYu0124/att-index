@@ -1,6 +1,7 @@
 {
-    "COMPANY_NAME": "宏威應用科技股份有限公司",
-    "SLOGAN": "Creating a Specialty Chemicals Platform",
+    "COMPANY_NAME": "宏威應用材料",
+    "SLOGAN": "致力於創造一個特用化學品平台",
+    "COMPANY_INTRODUCTION": "創立於2005年。獨立運作的特用化學品代理商及貿易商、經由技術導向的銷售團隊、國際級的供應商及產品品質、專業的物流控管、在適切的市場提供合宜的產品及建議。致力於創造一個特用化學品平台。",
     "COMPANY_VALUES": {
         "1": {
             "NAME": "與日俱增" ,
@@ -8,41 +9,34 @@
         },
         "2": {
             "NAME": "以客為尊" ,
-            "DESCRIPTION": "我們言而有信，以忠誠面對客戶、員工以及社會和環境"
+            "DESCRIPTION": "我們竭盡全力的服務，以提升客戶的信賴和滿意度"
         },
         "3": {
             "NAME": "穩若磐石" ,
-            "DESCRIPTION": "我們竭盡全力的服務，以提升客戶的信賴和滿意度"
+            "DESCRIPTION": "我們言而有信，以忠誠面對客戶、員工以及社會和環境"
         }
     },
     "APPLICATIONS": {
         "1": {
-            "NAME": "PAINT & COATING",
-            "SUB_TITLE": "We understand colour.",
-            "DESCRIPTION": "We work with leadingcolour pigment and dye manufacturers to assist our customers in selecting the perfect products and colours for their project."
+            "NAME": "塗料"
         },
         "2": {
-            "NAME": "INK",
-            "SUB_TITLE": "We can provide products that fit your application.",
-            "DESCRIPTION": "We are also able to meet any special wishes from our clients quickly and reliably."
+            "NAME": "油墨"
         },
         "3": {
-            "NAME": "ADHESIVE",
-            "SUB_TITLE": "We provide the most suitable products.",
-            "DESCRIPTION": "We supply virtually all special raw materials for your formulation across the entire spectrum of adhesives."
+            "NAME": "黏著劑"
         },
         "4": {
-            "NAME": "PLASTIC",
-            "SUB_TITLE": "We provide the most suitable products.",
-            "DESCRIPTION": "We have professional knowledge of plastic application"
+            "NAME": "塑膠"
         },
         "5": {
-            "NAME": "LUBRICANT ADDITIVES",
-            "SUB_TITLE": "Proper additive selection is crucial to the performance of your formulation.",
-            "DESCRIPTION": "Our product range covers numerous specialty chemicals that enable targeted product characteristics to be generated and adjusted."
+            "NAME": "潤滑油添加劑"
         }
     },
     "CONTACT": {
         "ADDRESS": "40661 台中市北屯區廍子巷116號1樓" 
-    }
+    },
+    "READ_MORE": "更多訊息",
+    "DECLARE": "本公司代理及銷售之產品，均使用於工業用途，不得自行使用於醫療及食品相關行業。",
+    "COPYRIGHT" : "© 2022 宏威應用材料股份有限公司"
 }

@@ -19,6 +19,8 @@ import { ContentInkComponent } from './content-ink/content-ink.component';
 import { ContentAdhesiveComponent } from './content-adhesive/content-adhesive.component';
 import { ContentPlasticComponent } from './content-plastic/content-plastic.component';
 import { ContentLubricantComponent } from './content-lubricant/content-lubricant.component';
+import { ContentContactComponent } from './content-contact/content-contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 export function httpTranslateLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http);
@@ -39,7 +41,9 @@ export function httpTranslateLoaderFactory(http: HttpClient){
     ContentInkComponent,
     ContentAdhesiveComponent,
     ContentPlasticComponent,
-    ContentLubricantComponent
+    ContentLubricantComponent,
+    ContentContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -8,7 +8,14 @@
                 class="nav-item pt-1 pb-2" 
                 *ngFor="let menu of menus"
                 [ngClass]="
-                    {selected: menu === selectedMenu,
+                    {selected: menu === selectedMenu
+                        || (menu === 'Applications' && (
+                            selectedMenu === 'paint-coating'
+                            || selectedMenu === 'ink'
+                            || selectedMenu === 'adhesive'
+                            || selectedMenu === 'plastic'
+                            || selectedMenu === 'lubricant'
+                            )),
                     dropdown: menu === 'Applications'}"
                 (click) = "menu !== 'Applications' && selectMenu(menu)"
                 >

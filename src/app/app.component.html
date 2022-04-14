@@ -1,17 +1,20 @@
 <div class="container">
   <app-header></app-header>
-  <app-header-menu (selectMenuEvent)="selectMenu($event)"></app-header-menu>
-  <div class="row mt-4">
-    <div class="col-8">
-      <app-content-company-values *ngIf="selectedMenu === 'Company'"></app-content-company-values>
-      <app-content-applications *ngIf="selectedMenu === 'Home' || selectedMenu === 'Applications'"></app-content-applications>
+  <app-header-menu 
+    (selectMenuEvent)="selectMenu($event)"
+    [selectedMenu] = selectedMenu></app-header-menu>
+  <div class="row mt-4" style="min-height: 60vh;">
+    <app-content-company-values *ngIf="selectedMenu === 'Company'"></app-content-company-values>
+      <app-content-applications 
+        (selectMenuEvent)="selectMenu($event)" 
+        *ngIf="selectedMenu === 'Home' || selectedMenu === 'Applications'"></app-content-applications>
       <app-content-partners *ngIf="selectedMenu === 'Partners'"></app-content-partners>
+      <app-sidebar-contact *ngIf="selectedMenu === 'Contact'"></app-sidebar-contact>
       <app-content-paint-coating *ngIf="selectedMenu === 'paint-coating'"></app-content-paint-coating>
       <app-content-ink *ngIf="selectedMenu === 'ink'"></app-content-ink>
       <app-content-adhesive *ngIf="selectedMenu === 'adhesive'"></app-content-adhesive>
       <app-content-plastic *ngIf="selectedMenu === 'plastic'"></app-content-plastic>
       <app-content-lubricant *ngIf="selectedMenu === 'lubricant'"></app-content-lubricant>
-    </div>
-    <app-sidebar-contact class="col-4"></app-sidebar-contact>
   </div>
+  <app-footer></app-footer>
 </div>

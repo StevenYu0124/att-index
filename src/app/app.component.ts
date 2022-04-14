@@ -10,6 +10,5 @@ export class AppComponent {
   
   selectMenu(option: string){
     this.selectedMenu = option;
-    console.log(option);
   }
 }
