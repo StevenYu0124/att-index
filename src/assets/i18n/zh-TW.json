@@ -33,6 +33,32 @@
             "NAME": "潤滑油添加劑"
         }
     },
+    "APPLICATIONS_MENU": {
+        "1": {
+            "NAME": "塗料"
+        },
+        "2": {
+            "NAME": "油墨"
+        },
+        "3": {
+            "NAME": "黏著劑"
+        },
+        "4": {
+            "NAME": "塑膠"
+        },
+        "5": {
+            "NAME": "潤滑油添加劑"
+        }
+    },
+    "COATING":{
+        "INDUSTRY_COATING": "工業漆",
+        "WOOD_COATING": "木器漆",
+        "POWDER_COATING": "粉體塗料",
+        "PLASTIC_COATING": "塑膠漆",
+        "FLOOR_COATING": "地板漆/道路漆"
+    },
+    "BINDER": "樹脂",
+    "ADDITIVES": "添加劑",
     "CONTACT": {
         "ADDRESS": "40661 台中市北屯區廍子巷116號1樓" 
     },

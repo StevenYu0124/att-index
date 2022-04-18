@@ -26,11 +26,11 @@
                     id="{{ menu }}Dropdown">{{ menu }}</span>
                 <ul class="dropdown-menu" aria-labelledby="ApplicationsDropdown"
                     *ngIf="menu === 'Applications'">
-                    <li><span class="dropdown-item clickable" (click) = "selectMenu('paint-coating')">Paint & Coating</span></li>
-                    <li><span class="dropdown-item clickable" (click) = "selectMenu('ink')">Ink</span></li>
-                    <li><span class="dropdown-item clickable" (click) = "selectMenu('adhesive')">Adhesive</span></li>
-                    <li><span class="dropdown-item clickable" (click) = "selectMenu('plastic')">Plastic</span></li>
-                    <li><span class="dropdown-item clickable" (click) = "selectMenu('lubricant')">Lubricant</span></li>
+                    <li><span class="dropdown-item clickable" (click) = "selectMenu('paint-coating')">{{ 'APPLICATIONS_MENU.1.NAME' | translate }}</span></li>
+                    <li><span class="dropdown-item clickable" (click) = "selectMenu('ink')">{{ 'APPLICATIONS_MENU.2.NAME' | translate }}</span></li>
+                    <li><span class="dropdown-item clickable" (click) = "selectMenu('adhesive')">{{ 'APPLICATIONS_MENU.3.NAME' | translate }}</span></li>
+                    <li><span class="dropdown-item clickable" (click) = "selectMenu('plastic')">{{ 'APPLICATIONS_MENU.4.NAME' | translate }}</span></li>
+                    <li><span class="dropdown-item clickable" (click) = "selectMenu('lubricant')">{{ 'APPLICATIONS_MENU.5.NAME' | translate }}</span></li>
                 </ul>
             </li>
         </ul>

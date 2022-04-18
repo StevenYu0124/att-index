@@ -33,9 +33,35 @@
             "NAME": "LUBRICANT ADDITIVES"
         }
     },
+    "APPLICATIONS_MENU": {
+        "1": {
+            "NAME": "Paint & Coating"
+        },
+        "2": {
+            "NAME": "Ink"
+        },
+        "3": {
+            "NAME": "Adhesive"
+        },
+        "4": {
+            "NAME": "Plastic"
+        },
+        "5": {
+            "NAME": "Lubricant Additives"
+        }
+    },
     "CONTACT": {
         "ADDRESS": "1F. No.116, Buzi Lane, Beitun District, Taichung City, Taiwan" 
     },
+    "COATING":{
+      "INDUSTRY_COATING": "INDUSTRY COATING",
+      "WOOD_COATING": "WOOD COATING",
+      "POWDER_COATING": "POWDER COATING",
+      "PLASTIC_COATING": "PLASTIC COATING",
+      "FLOOR_COATING": "FLOOR COATING"
+    },
+    "BINDER": "Binder",
+    "ADDITIVES": "Additives",
     "READ_MORE": "Read More",
     "DECLARE": "Any product sold is strictly prohibited from been using in the medical or food industry",
     "COPYRIGHT" : "© 2022 Alan & Thomas Technologies"
