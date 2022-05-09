@@ -2,3 +2,9 @@
     max-width: 970px;
     box-shadow: 0 0 5px 1px #a5a5a5;
 }
+
+.top-border{
+    border-top-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}

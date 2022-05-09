@@ -3,3 +3,9 @@
     border-color: lightgray;
     border-width: 1px;
 }
+
+.bg-image{
+    background-image: url("../../assets/images/header-background.png");
+    background-repeat: no-repeat;
+    min-height: 15vh;
+}

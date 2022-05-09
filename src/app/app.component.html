@@ -1,9 +1,10 @@
 <div class="container">
   <app-header></app-header>
-  <app-header-menu 
+  <app-header-menu
     (selectMenuEvent)="selectMenu($event)"
-    [selectedMenu] = selectedMenu></app-header-menu>
-  <div class="row mt-4" style="min-height: 60vh;">
+    [selectedMenu] = selectedMenu>
+  </app-header-menu>
+  <div class="row top-border pt-4" style="min-height: 60vh;">
     <app-content-company-values *ngIf="selectedMenu === 'Company'"></app-content-company-values>
       <app-content-applications 
         (selectMenuEvent)="selectMenu($event)" 

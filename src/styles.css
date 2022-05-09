@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.blue-purple-background:hover {
+    background-color:#339;
+    color: white;
+}
+
+.blue-purple-background {
+    color: #339;
+}
