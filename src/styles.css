@@ -7,3 +7,22 @@
 .blue-purple-background {
     color: #339;
 }
+
+.blue-purple{
+    color: #339 !important;
+}
+
+.red-purple{
+    color: #c20044;
+}
+
+@font-face {
+    font-family: 'Scala';
+    src: 
+        url('assets/fonts/ScalaWebPro.woff') format('woff'),
+        url('assets/fonts/ScalaWebPro-Bold.woff') format('woff');
+}
+
+.container{
+    font-family: "Scala",Helvetica,Arial,sans-serif;
+}

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./content-company-values.component.css']
 })
 export class ContentCompanyValuesComponent implements OnInit {
-  imageSrc = 'assets/images/company-values.png';
+  imageSrc = 'assets/images/company-values2.png';
   constructor() { }
 
   ngOnInit(): void {
